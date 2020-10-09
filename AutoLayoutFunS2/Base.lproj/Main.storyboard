@@ -15,15 +15,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqV-kA-nvS">
-                                <rect key="frame" x="137" y="225" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBM-Kd-pBY">
+                                <rect key="frame" x="142.5" y="16" width="35" height="30"/>
+                                <color key="backgroundColor" red="0.30280544679999999" green="0.77784974090000003" blue="0.62294905229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Hello"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwI-Os-je3">
+                                <rect key="frame" x="129" y="62" width="62" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Goodbye"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="EqV-kA-nvS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SyA-JT-KxD"/>
-                            <constraint firstItem="EqV-kA-nvS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZAp-JG-4Le"/>
+                            <constraint firstItem="uwI-Os-je3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="47e-3E-ars"/>
+                            <constraint firstItem="vBM-Kd-pBY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Sk5-5K-T3C"/>
+                            <constraint firstItem="vBM-Kd-pBY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k25-6H-y7V"/>
+                            <constraint firstItem="uwI-Os-je3" firstAttribute="top" secondItem="vBM-Kd-pBY" secondAttribute="bottom" constant="16" id="zcV-x0-jid"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
