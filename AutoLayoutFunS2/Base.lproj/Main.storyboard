@@ -15,37 +15,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPf-lL-rdW">
-                                <rect key="frame" x="16" y="16" width="93.5" height="30"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPy-Js-t8k">
-                                <rect key="frame" x="113.5" y="16" width="93" height="30"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KP-J7-FnM">
-                                <rect key="frame" x="210.5" y="16" width="93.5" height="30"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Q5f-0C-N1r">
-                                <rect key="frame" x="16" y="62" width="288" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="W89-Nu-PAu">
+                                <rect key="frame" x="16" y="16" width="288" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCk-Pw-CRc">
-                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdv-fA-kk2">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="0.30280544679999999" green="0.77784974090000003" blue="0.62294905229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubs-4B-a1G">
-                                        <rect key="frame" x="97.5" y="0.0" width="93" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btQ-mr-0cp">
+                                        <rect key="frame" x="51" y="0.0" width="186" height="30"/>
+                                        <color key="backgroundColor" red="0.30280544679999999" green="0.77784974090000003" blue="0.62294905229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGH-7t-5CC">
-                                        <rect key="frame" x="194.5" y="0.0" width="93.5" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66n-EV-4rr">
+                                        <rect key="frame" x="242" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" red="0.30280544679999999" green="0.77784974090000003" blue="0.62294905229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
@@ -53,18 +38,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="3KP-J7-FnM" firstAttribute="width" secondItem="tPf-lL-rdW" secondAttribute="width" id="7gk-7I-bNt"/>
-                            <constraint firstItem="Q5f-0C-N1r" firstAttribute="top" secondItem="tPf-lL-rdW" secondAttribute="bottom" constant="16" id="Ehp-ZA-r9z"/>
-                            <constraint firstItem="tPf-lL-rdW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ITt-Sy-XWj"/>
-                            <constraint firstItem="xPy-Js-t8k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="IX6-gf-yX1"/>
-                            <constraint firstItem="xPy-Js-t8k" firstAttribute="width" secondItem="tPf-lL-rdW" secondAttribute="width" id="LUP-Nq-2Fe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3KP-J7-FnM" secondAttribute="trailing" constant="16" id="PY2-Nw-NKy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q5f-0C-N1r" secondAttribute="trailing" constant="16" id="hTf-Hq-0gk"/>
-                            <constraint firstItem="xPy-Js-t8k" firstAttribute="leading" secondItem="tPf-lL-rdW" secondAttribute="trailing" constant="4" id="mMa-Ds-ayb"/>
-                            <constraint firstItem="3KP-J7-FnM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="p6Y-rU-3zJ"/>
-                            <constraint firstItem="Q5f-0C-N1r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sRS-hm-nc1"/>
-                            <constraint firstItem="tPf-lL-rdW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="vbq-NO-63l"/>
-                            <constraint firstItem="3KP-J7-FnM" firstAttribute="leading" secondItem="xPy-Js-t8k" secondAttribute="trailing" constant="4" id="w2k-ve-ati"/>
+                            <constraint firstItem="W89-Nu-PAu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GTh-ta-Kgy"/>
+                            <constraint firstItem="W89-Nu-PAu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="bIi-bo-hcJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W89-Nu-PAu" secondAttribute="trailing" constant="16" id="fqc-TC-v6U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
