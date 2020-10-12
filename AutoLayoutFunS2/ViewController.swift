@@ -60,6 +60,9 @@ import UIKit
 
 // demo:
 
+// task: create a layout of 3x3 buttons that equally share the available width and height of the screen
+// all 9 buttons should be wired up to the same IBAction that simply prints "button pressed" when any button is pressed
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -67,6 +70,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("button pressed")
+        // how do we know which button was pressed?
+        // 2 ways
+        // use the tag property of UIView
+        print("tag: \(sender.tag)")
+    }
 }
 
