@@ -64,6 +64,8 @@ import UIKit
 // all 9 buttons should be wired up to the same IBAction that simply prints "button pressed" when any button is pressed
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var buttons: [UIButton]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,8 +76,12 @@ class ViewController: UIViewController {
         print("button pressed")
         // how do we know which button was pressed?
         // 2 ways
-        // use the tag property of UIView
+        // 1. use the tag property of UIView
         print("tag: \(sender.tag)")
+        // 2. use an outlet collection
+        if let senderIndex = buttons.firstIndex(of: sender) {
+            print("senderIndex: \(senderIndex)")
+        }
     }
 }
 

@@ -125,6 +125,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outletCollection property="buttons" destination="P3x-wL-1iF" collectionClass="NSMutableArray" id="VeJ-8R-opL"/>
+                        <outletCollection property="buttons" destination="2Xj-Sm-vcG" collectionClass="NSMutableArray" id="N0x-tg-Xv5"/>
+                        <outletCollection property="buttons" destination="DAh-NT-tlG" collectionClass="NSMutableArray" id="QhD-ce-m99"/>
+                        <outletCollection property="buttons" destination="xDD-QD-XCb" collectionClass="NSMutableArray" id="0bi-ks-jC9"/>
+                        <outletCollection property="buttons" destination="Gyr-5q-LVR" collectionClass="NSMutableArray" id="M4S-1g-4Ey"/>
+                        <outletCollection property="buttons" destination="Sm3-bI-GBz" collectionClass="NSMutableArray" id="sDB-Sr-paV"/>
+                        <outletCollection property="buttons" destination="TcU-TJ-wA2" collectionClass="NSMutableArray" id="gdE-6Q-cy0"/>
+                        <outletCollection property="buttons" destination="50y-qG-t8p" collectionClass="NSMutableArray" id="x8L-aj-0Hc"/>
+                        <outletCollection property="buttons" destination="w7t-Vt-6ym" collectionClass="NSMutableArray" id="MkO-oF-kgw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
